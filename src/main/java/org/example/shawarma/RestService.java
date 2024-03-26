@@ -1,10 +1,13 @@
-//package com.davidson.MyFirstSpringBoot.classes;
+package org.example.shawarma;
 
 import org.springframework.stereotype.Component;
+import org.springframework.stereotype.Service;
 
 import java.io.*;
 
-@Component
+//@Component
+@Service
+
 public class RestService {
 
     private final File file = new File("file.txt");
